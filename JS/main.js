@@ -4,9 +4,9 @@ let img3 = document.querySelector('#carousel-img3')
 let windowWidth = window.innerWidth
 
 if (windowWidth <= 1142) {
-  img1.src = '../Assets/Images/slide_senac_mobile.jpg'
-  img2.src = '../Assets/Images/slide_transparencia_mobile.jpg'
-  img3.src = '../Assets/Images/slide_ead_mobile.jpg'
+  img1.src = 'Assets/Images/slide_senac_mobile.jpg'
+  img2.src = 'Assets/Images/slide_transparencia_mobile.jpg'
+  img3.src = 'Assets/Images/slide_ead_mobile.jpg'
 }
 
 let menu = document.querySelector('#menu-principal')
