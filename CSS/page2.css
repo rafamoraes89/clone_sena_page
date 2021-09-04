@@ -1,0 +1,86 @@
+body {
+  font-family: 'Lora', serif;
+}
+nav {
+  position: fixed !important;
+  width: 100%;
+  z-index: 10;
+  -webkit-box-shadow: 0px 6px 5px -3px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 6px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.parallax {
+  background: url(../Assets/Images/banner1.jpg);
+  min-height: 72vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divisor {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 5rem;
+  width: 7rem;
+  height: 2px;
+  background: orange;
+}
+.divisor2 {
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 5rem;
+  width: 7rem;
+  height: 2px;
+  background: orange;
+}
+.cont {
+  background: rgb(248, 248, 248);
+}
+.cont h1 {
+  color: #0158aa;
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+.cont p {
+  font-size: 1.2rem;
+  color: gray;
+}
+.cont h2 {
+  text-align: center;
+  color: #0158aa;
+  padding: 2rem 0;
+  font-size: 2.3rem;
+}
+.cont .row .col-lg-12 {
+  margin: 2rem auto;
+  width: 60%;
+}
+nav img {
+  width: 100px;
+}
+
+.texto1 {
+  width: 50%;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  color: #0154a1;
+  font-weight: bold;
+  text-align: center;
+}
+.title2 {
+  width: 60%;
+  margin: 5rem auto;
+  color: #0154a1;
+}
+
+@media (max-width: 1142px) {
+  .parallax {
+    min-height: 50vh;
+    background-position: center;
+    background-size: 115vh auto;
+  }
+  .cont .row .col-lg-12,
+  .texto1,
+  .title2 {
+    width: 90%;
+  }
+}
